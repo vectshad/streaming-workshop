@@ -1642,6 +1642,7 @@ dependencies = [
     { name = "pandas" },
     { name = "psycopg2-binary" },
     { name = "pyarrow" },
+    { name = "requests" },
 ]
 
 [package.dev-dependencies]
@@ -1655,6 +1656,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.1" },
     { name = "psycopg2-binary", specifier = ">=2.9.11" },
     { name = "pyarrow", specifier = ">=23.0.1" },
+    { name = "requests", specifier = ">=2.32.5" },
 ]
 
 [package.metadata.requires-dev]
